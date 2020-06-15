@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Padima.NoteEntryPage"
-             Title="Введите заметку">
+             Title="Padima
+">
     <ContentPage.Resources>
         <!-- Implicit styles -->
         <Style TargetType="{x:Type Editor}">
@@ -21,7 +22,7 @@
     </ContentPage.Resources>
 
     <StackLayout Margin="{StaticResource PageMargin}">
-        <Editor Placeholder="Enter your note"
+        <Editor Placeholder="Введите текст заметки"
                 Text="{Binding Text}"
                 HeightRequest="100" />
         <Grid>
